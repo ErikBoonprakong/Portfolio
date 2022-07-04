@@ -14,6 +14,9 @@ class Home extends React.Component {
         <Link to="/chessyem">
           <h3>ChessYem - Multiplayer Chess Website</h3>
         </Link>
+        <Link to="/sliderpuzzle">
+          <h3>Slider Puzzle Game</h3>
+        </Link>
       </div>
     );
   }

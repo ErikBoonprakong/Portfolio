@@ -9,9 +9,16 @@
   font-size: 36px;
 }
 
-.description {
+.description-big {
   color: black;
   /* text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white; */
   font-size: 24px;
+  font-weight: 400;
+}
+
+.description-little {
+  color: black;
+  /* text-shadow: -0.5px 0 white, 0 0.5px white, 0.5px 0 white, 0 -0.5px white; */
+  font-size: 18px;
   font-weight: 400;
 }

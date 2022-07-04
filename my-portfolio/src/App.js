@@ -4,6 +4,7 @@ import React from "react";
 import { Switch, Route, Redirect, Link } from "react-router-dom";
 import Home from "./Components/Home";
 import ChessYem from "./Components/ChessYem";
+import SliderPuzzle from "./Components/SliderPuzzle";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/chessyem">
           <ChessYem />
+        </Route>
+        <Route path="/sliderpuzzle">
+          <SliderPuzzle />
         </Route>
       </Switch>
     </div>
