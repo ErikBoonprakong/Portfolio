@@ -22,3 +22,12 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+.display-pic {
+  height: 40vh;
+  width: 40vw;
+}
+
+.pic-container {
+  text-align: center;
+}

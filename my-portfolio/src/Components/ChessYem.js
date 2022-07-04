@@ -17,11 +17,15 @@ class ChessYem extends React.Component {
           This is an online chess website, created as part of a 3 person group
           project using agile methodologies.
         </p>
-        <a href="https://hardcore-kepler-5bee6e.netlify.app/">
-          <button className="home-btn">View Website</button>
-        </a>
-        <p className="description-big">
-          Note: it may take around 10-15 seconds to create an account or log in
+        <p className="pic-container">
+          <a href="https://hardcore-kepler-5bee6e.netlify.app/">
+            <button className="home-btn">View Website</button>
+          </a>
+          <p className="description-big">
+            Note: it may take around 10-15 seconds to create an account or log
+            in
+          </p>
+          <img src="chess-screenshot.png" className="display-pic" />
         </p>
         <p className="description-big">
           List of features:
@@ -104,11 +108,12 @@ class ChessYem extends React.Component {
           positions.
         </p>
         <p className="description-little">
-          <strong>Deployment</strong> was done by deploying the front end to
-          Netlify and the servers to Heroku. Both of these options were chosen
-          because of their ability to have the site continually deployed from a
-          github repo. So anytime changes were pushed to the main branch of a
-          repo the site would be automatically redeployed.
+          <strong>Deployment</strong> was done by deploying the front end to{" "}
+          <strong>Netlify</strong> and the servers to <strong>Heroku</strong>.
+          Both of these options were chosen because of their ability to have the
+          site continually deployed from a github repo. So anytime changes were
+          pushed to the main branch of a repo the site would be automatically
+          redeployed.
         </p>
       </div>
     );
