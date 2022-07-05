@@ -6,6 +6,7 @@ import Home from "./Components/Home";
 import ChessYem from "./Components/ChessYem";
 import SliderPuzzle from "./Components/SliderPuzzle";
 import Paint from "./Components/Paint";
+import Blackjack from "./Components/Blackjack";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
         </Route>
         <Route path="/paint">
           <Paint />
+        </Route>
+        <Route path="/blackjack">
+          <Blackjack />
         </Route>
       </Switch>
     </div>
