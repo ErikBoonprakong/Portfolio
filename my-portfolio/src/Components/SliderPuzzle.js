@@ -19,6 +19,9 @@ class SliderPuzzle extends React.Component {
         <p className="pic-container">
           <a href="https://erikspuzzlegame.netlify.app/">
             <button className="home-btn">View Website</button>
+          </a>{" "}
+          <a href="https://github.com/ErikBoonprakong/jigsaw">
+            <button className="home-btn">View Code</button>
           </a>
           <p></p>
           <img src="sliderpuzzle-screenshot.png" className="display-pic" />

@@ -20,6 +20,15 @@ class ChessYem extends React.Component {
         <p className="pic-container">
           <a href="https://hardcore-kepler-5bee6e.netlify.app/">
             <button className="home-btn">View Website</button>
+          </a>{" "}
+          <a href="https://github.com/ErikBoonprakong/chess-frontend">
+            <button className="home-btn">View Frontend Code</button>
+          </a>{" "}
+          <a href="https://github.com/ErikBoonprakong/chess-backend">
+            <button className="home-btn">View Backend Code</button>
+          </a>{" "}
+          <a href="https://github.com/ErikBoonprakong/chess-websocket">
+            <button className="home-btn">View Websocket Code</button>
           </a>
           <p className="description-big">
             Note: it may take around 10-15 seconds to create an account or log

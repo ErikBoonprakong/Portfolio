@@ -18,6 +18,9 @@ class Paint extends React.Component {
         <p className="pic-container">
           <a href="https://htmlpreview.github.io/?https://github.com/ErikBoonprakong/Canvas-paint/blob/main/Paint%20Canvas.html">
             <button className="home-btn">View Website</button>
+          </a>{" "}
+          <a href="https://github.com/ErikBoonprakong/Canvas-paint">
+            <button className="home-btn">View Code</button>
           </a>
           <p></p>
           <img src="paint-screenshot.png" className="display-pic" />

@@ -18,8 +18,8 @@ class Blackjack extends React.Component {
         <p className="pic-container">
           <a href="https://htmlpreview.github.io/?https://github.com/ErikBoonprakong/blackjack-html/blob/main/blackjack.html">
             <button className="home-btn">View Website</button>
-          </a>
-          <a href="https://github.com/ErikBoonprakong/blackjack-html/blob/main/blackjack.html">
+          </a>{" "}
+          <a href="https://github.com/ErikBoonprakong/blackjack-html">
             <button className="home-btn">View Code</button>
           </a>
           <p></p>
