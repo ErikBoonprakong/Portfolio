@@ -7,6 +7,7 @@ import ChessYem from "./Components/ChessYem";
 import SliderPuzzle from "./Components/SliderPuzzle";
 import Paint from "./Components/Paint";
 import Blackjack from "./Components/Blackjack";
+import LinkShortener from "./Components/LinkShortener";
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
         </Route>
         <Route path="/blackjack">
           <Blackjack />
+        </Route>
+        <Route path="/link-shortener">
+          <LinkShortener />
         </Route>
       </Switch>
     </div>

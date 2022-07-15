@@ -17,6 +17,9 @@ class Home extends React.Component {
         <Link to="/sliderpuzzle">
           <h3>Slider Puzzle Game</h3>
         </Link>
+        <Link to="/link-shortener">
+          <h3>Link Shortener</h3>
+        </Link>
         <Link to="/paint">
           <h3>JavaScript Painting App</h3>
         </Link>
