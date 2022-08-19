@@ -39,10 +39,12 @@ class SliderPuzzle extends React.Component {
           </ul>
         </p>
         <p className="description-little">
-          This is currently a front end only <strong>React</strong> app. I chose
-          React for this app to minimise loading time as it enables me to just
-          reload the game board each time a move is made instead of reloading
-          the entire page.
+          This is a full stack <strong>React</strong> app. I chose React for
+          this app to minimise loading time as it enables me to just reload the
+          game board each time a move is made instead of reloading the entire
+          page. The server is deployed to <strong>Heroku</strong> and the
+          database is a <strong>PostgresSQL</strong> database, hosted with
+          ElephantSQL
         </p>
         <p className="description-little">
           I <strong>deployed</strong> this to <strong>Netlify</strong> as
