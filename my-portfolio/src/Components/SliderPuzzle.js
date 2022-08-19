@@ -12,9 +12,11 @@ class SliderPuzzle extends React.Component {
       <div className="container">
         <span className="title">Slider Puzzle</span>
         <p className="description-big">
-          This is a pet project that I am currently working on. It's a website
-          for a simple slider puzzle game. I'm currently working on adding
-          different difficulties for the user to chose from.
+          This is a pet project that I am currently working on. It's a{" "}
+          <strong>full-stack React</strong> app where the user can sign up and
+          earn varying amounts of points for completing different puzzles. I'm
+          currently working on adding different difficulties and new puzzles for
+          the user to chose from.
         </p>
         <p className="pic-container">
           <a href="https://erikspuzzlegame.netlify.app/">
@@ -24,36 +26,40 @@ class SliderPuzzle extends React.Component {
             <button className="home-btn">View Code</button>
           </a>
           <p></p>
-          <img src="sliderpuzzle-screenshot.png" className="display-pic" />
+          <img src="puzzlegame-screenshot.png" className="display-pic" />
         </p>
         <p className="description-big">
           List of features:
           <ul>
+            <li>User Account system</li>
             <li>Home Page</li>
             <li>Instructions Page</li>
             <li>Difficulty Selection (work in progress)</li>
-            <li>Play Game</li>
-            <ul>
-              <li>Win message is displayed once puzzle is completed</li>
-            </ul>
+            <li>Slider Puzzle game</li>
+            <li>Database + Server to connect with DB</li>
+            <li>Header displaying user info</li>
+
+            <li>
+              If signed in, the user earns points upon completion of the puzzle
+            </li>
+            <li>Win message is displayed once puzzle is completed</li>
           </ul>
         </p>
         <p className="description-little">
           This is a full stack <strong>React</strong> app. I chose React for
           this app to minimise loading time as it enables me to just reload the
           game board each time a move is made instead of reloading the entire
-          page. The server is deployed to <strong>Heroku</strong> and the
-          database is a <strong>PostgresSQL</strong> database, hosted with
-          ElephantSQL
+          page.
         </p>
         <p className="description-little">
-          I <strong>deployed</strong> this to <strong>Netlify</strong> as
-          Netlify is designed for front-end developers so there was an abundance
-          of documentation applicable to my needs.
+          I <strong>deployed</strong> this to <strong>Netlify</strong>. The
+          server is deployed to <strong>Heroku</strong> and the database is a{" "}
+          <strong>PostgresSQL</strong> database, hosted with ElephantSQL
         </p>
         <p className="description-little">
           My future goals for this project are:
           <ul>
+            <li>Add more puzzles</li>
             <li>
               Implement multiple difficulties for the player to chose from in a
               way that doesn't repeat code unnecessarily and that I could add
@@ -65,19 +71,8 @@ class SliderPuzzle extends React.Component {
                 Potentially look into letting the user upload a picture to use
               </li>
             </ul>
-            <li>
-              Consider adding a score system where the user would create an
-              account and that account would get various amounts of points from
-              completing puzzles of varying difficulty
-            </li>
-            <ul>
-              <li>
-                I would do this by creating a PostgresSQL database and a server
-                to communicate with it using Deno. I would then deploy the
-                server to Heroku
-              </li>
-              <li>Leaderboard</li>
-            </ul>
+            <li>Leader Board</li>
+            <li>Rewards to be purchased with points</li>
           </ul>
         </p>
       </div>
