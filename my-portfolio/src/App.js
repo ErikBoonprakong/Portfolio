@@ -8,6 +8,7 @@ import Puzzle from "./Components/SliderPuzzle";
 import Paint from "./Components/Paint";
 import Blackjack from "./Components/Blackjack";
 import LinkShortener from "./Components/LinkShortener";
+import JokesWebApp from "./Components/JokesWebApp";
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
         </Route>
         <Route path="/link-shortener">
           <LinkShortener />
+        </Route>
+        <Route path="/jokes">
+          <JokesWebApp />
         </Route>
       </Switch>
     </div>
