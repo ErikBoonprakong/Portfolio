@@ -28,11 +28,10 @@ class Puzzle extends React.Component {
           </a>
           <p></p>
           <p className="description-big">
-            Note: the user score in the left of the header may take around 30
-            seconds or so to update after completing a puzzle if the database
-            has not been connected to for a while. This is just a result of
-            using the free hosting plan with ElephantSQL and most likely would
-            not occur if I chose to use one of their paid plans.
+            Note: the header may take around 30 seconds or so to update if the
+            database has not been connected to for a while. This is just a
+            result of using the free hosting plan with ElephantSQL and would not
+            occur if I chose to use one of their paid plans.
           </p>
           <img src="puzzlegame-screenshot.png" className="display-pic" />
         </p>
@@ -80,6 +79,16 @@ class Puzzle extends React.Component {
         <p className="description-little">
           My future goals for this project are:
           <ul>
+            <li>Finish Sodoku</li>
+            <ul>
+              <li>Add validation upon completion</li>
+              <li>Update score upon successful validation</li>
+              <li>Highlight errors upon bad validation</li>
+              <li>Highlight selected table cell</li>
+              <li>Make preloaded cells unchangeable</li>
+              <li>Style buttons</li>
+              <li>Add restart and reload buttons</li>
+            </ul>
             <li>Add more puzzles</li>
             <li>
               Implement multiple difficulties for the player to chose from in a
