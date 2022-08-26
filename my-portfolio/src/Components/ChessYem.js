@@ -32,7 +32,9 @@ class ChessYem extends React.Component {
           </a>
           <p className="description-big">
             Note: it may take around 10-15 seconds to create an account or log
-            in
+            in. This is just a result of using the free hosting plan with
+            ElephantSQL and would not occur if I chose to use one of their paid
+            plans.
           </p>
           <img src="chess-screenshot.png" className="display-pic" />
         </p>
