@@ -4,7 +4,7 @@ import React from "react";
 import { Switch, Route, Redirect, Link } from "react-router-dom";
 import Home from "./Components/Home";
 import ChessYem from "./Components/ChessYem";
-import SliderPuzzle from "./Components/SliderPuzzle";
+import Puzzle from "./Components/SliderPuzzle";
 import Paint from "./Components/Paint";
 import Blackjack from "./Components/Blackjack";
 import LinkShortener from "./Components/LinkShortener";
@@ -30,8 +30,8 @@ function App() {
         <Route path="/chessyem">
           <ChessYem />
         </Route>
-        <Route path="/sliderpuzzle">
-          <SliderPuzzle />
+        <Route path="/puzzle">
+          <Puzzle />
         </Route>
         <Route path="/paint">
           <Paint />
