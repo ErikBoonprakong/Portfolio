@@ -46,11 +46,11 @@ class Puzzle extends React.Component {
               different sized screens
             </li>
             <li>Slider Puzzle game</li>
-            <li>Sodoku (unfinished)</li>
             <ul>
               <li>Instructions Page</li>
               <li>Difficulty Selection (work in progress)</li>
             </ul>
+            <li>Sodoku (unfinished)</li>
             <li>Database + Server to connect with DB</li>
             <li>Header displaying user info</li>
 
