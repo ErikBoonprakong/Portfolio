@@ -10,7 +10,7 @@ class Puzzle extends React.Component {
   render() {
     return (
       <div className="container">
-        <span className="title">Slider Puzzle</span>
+        <span className="title">Puzzle Game App</span>
         <p className="description-big">
           This is a pet project that I am currently working on. It's a{" "}
           <strong>full-stack React</strong> app where the user can sign up and
@@ -24,7 +24,10 @@ class Puzzle extends React.Component {
             <button className="home-btn">View Website</button>
           </a>{" "}
           <a href="https://github.com/ErikBoonprakong/jigsaw">
-            <button className="home-btn">View Code</button>
+            <button className="home-btn">View Frontend Code</button>
+          </a>{" "}
+          <a href="https://github.com/ErikBoonprakong/puzzle-server">
+            <button className="home-btn">View Server Code</button>
           </a>
           <p></p>
           <p className="description-big">
@@ -79,6 +82,7 @@ class Puzzle extends React.Component {
         <p className="description-little">
           My future goals for this project are:
           <ul>
+            <li>Come up with a better name</li>
             <li>Finish Sodoku</li>
             <ul>
               <li>Add validation upon completion</li>
