@@ -9,6 +9,7 @@ import Paint from "./Components/Paint";
 import Blackjack from "./Components/Blackjack";
 import LinkShortener from "./Components/LinkShortener";
 import JokesWebApp from "./Components/JokesWebApp";
+import PieShop from "./Components/PieShop";
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
         </Route>
         <Route path="/jokes">
           <JokesWebApp />
+        </Route>
+        <Route path="/pieshop">
+          <PieShop />
         </Route>
       </Switch>
     </div>

@@ -24,7 +24,10 @@ class Home extends React.Component {
           <h3>JavaScript Painting App</h3>
         </Link>
         <Link to="/jokes">
-          <h3>Jokes Web App</h3>
+          <h3>C# Jokes Web App</h3>
+        </Link>
+        <Link to="/pieshop">
+          <h3>C# Pie Shop</h3>
         </Link>
         <Link to="/blackjack">
           <h3>HTML Blackjack Game</h3>
