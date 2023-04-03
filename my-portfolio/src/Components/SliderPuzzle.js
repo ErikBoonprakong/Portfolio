@@ -31,10 +31,11 @@ class Puzzle extends React.Component {
           </a>
           <p></p>
           <p className="description-big">
-            Note: the header may take around 30 seconds or so to update if the
+          Note: the backend functionality is currently unavailable due to Heroku introducing hosting charges, however the backend code can still be viewed.
+            {/* Note: the header may take around 30 seconds or so to update if the
             database has not been connected to for a while. This is just a
             result of using the free hosting plan with ElephantSQL and would not
-            occur if I chose to use one of their paid plans.
+            occur if I chose to use one of their paid plans. */}
           </p>
           <img src="puzzlegame-screenshot.png" className="display-pic" />
         </p>
