@@ -14,20 +14,23 @@ import PieShop from "./Components/PieShop";
 function App() {
   return (
     <div className="App">
-      <header className="app-header">
-        Erik Boonprakong-Kitching's Portfolio
-      </header>
-      <br />
-      <Link to="/home">
-        <button className="home-btn">Home Page</button>
-      </Link>
-      <hr />
+      <div className="header-container">
+        <header className="app-header">
+            Erik Boonprakong-Kitching's Portfolio
+        </header>
+        <br />
+        <Link to="/home">
+            <button className="home-btn">Home Page</button>
+        </Link>
+        <hr />
+      </div>
       <Switch>
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
         <Route path="/home">
-          <Home />
+            <div className="home-screen">
+          <Home /></div>
         </Route>
         <Route path="/chessyem">
           <ChessYem />
