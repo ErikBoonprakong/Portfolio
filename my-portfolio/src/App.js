@@ -28,7 +28,7 @@ function App() {
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
-        <Route exact path="/home">
+        {/* <Route exact path="/home">
           <Redirect to="/home" />
         </Route>
         <Route exact path="/chessyem">
@@ -51,7 +51,7 @@ function App() {
         </Route>
         <Route exact path="/pieshop">
           <Redirect to="/pieshop" />
-        </Route>
+        </Route> */}
         <Route path="/home">
             <div className="home-screen">
           <Home /></div>
