@@ -31,7 +31,7 @@ class ChessYem extends React.Component {
             <button className="home-btn">View Websocket Code</button>
           </a>
           <p className="description-big">
-            Note: the backend functionality is currently unavailable due to Heroku introducing hosting charges, however the backend code can still be viewed.
+            Note: it may take around 30 seconds to log in or sign up if the database has not been connected to in a while. This is due to the particular hosting plan that I chose.
           </p>
           <img src="chess-screenshot.png" className="display-pic" />
         </p>
