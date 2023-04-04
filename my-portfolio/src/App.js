@@ -28,6 +28,9 @@ function App() {
         <Route exact path="/">
           <Redirect to="/home" />
         </Route>
+        <Route exact path="/paint">
+          <Redirect to="/paint" />
+        </Route>
         {/* <Route exact path="/home">
           <Redirect to="/home" />
         </Route>
