@@ -18,7 +18,7 @@ class ChessYem extends React.Component {
           project using agile methodologies.
         </p>
         <p className="pic-container">
-          <a href="https://hardcore-kepler-5bee6e.netlify.app/">
+          <a href="https://chessyem.netlify.app/">
             <button className="home-btn">View Website</button>
           </a>{" "}
           <a href="https://github.com/ErikBoonprakong/chess-frontend">
