@@ -10,6 +10,7 @@ import Blackjack from "./Components/Blackjack";
 import LinkShortener from "./Components/LinkShortener";
 import JokesWebApp from "./Components/JokesWebApp";
 import PieShop from "./Components/PieShop";
+import FoodShop from "./Components/FoodShop.js";
 
 function App() {
   return (
@@ -55,6 +56,9 @@ function App() {
         <Route path="/home">
             <div className="home-screen">
           <Home /></div>
+        </Route>
+        <Route path="/foodshop">
+          <FoodShop />
         </Route>
         <Route path="/chessyem">
           <ChessYem />

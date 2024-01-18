@@ -11,8 +11,11 @@ class Home extends React.Component {
     return (
       <div className="home-navigation">
         <h1>My Projects</h1>
+        <Link to="/foodshop">
+          <h3>ASP.NET Core 6 E-Commerce Web App</h3>
+        </Link>
         <Link to="/chessyem">
-          <h3>ChessYem - Multiplayer Chess Website</h3>
+          <h3>Multiplayer Chess Website</h3>
         </Link>
         <Link to="/puzzle">
           <h3>Puzzle Game Site</h3>
@@ -24,11 +27,11 @@ class Home extends React.Component {
           <h3>JavaScript Painting App</h3>
         </Link>
         <Link to="/jokes">
-          <h3>C# Jokes Web App</h3>
+          <h3>ASP.NET Jokes Web App</h3>
         </Link>
-        <Link to="/pieshop">
+        {/* <Link to="/pieshop">
           <h3>C# Pie Shop</h3>
-        </Link>
+        </Link> */}
         <Link to="/blackjack">
           <h3>HTML Blackjack Game</h3>
         </Link>

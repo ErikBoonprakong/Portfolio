@@ -23,7 +23,7 @@ class JokesWebApp extends React.Component {
           <p></p>
           <img src="JokesWebApp-screenshot.jpg" className="display-pic" />
         </p>
-        <p className="description-big">
+        {/* <p className="description-big">
           List of features:
           <ul>
             <li></li>
@@ -34,7 +34,7 @@ class JokesWebApp extends React.Component {
         <p className="description-little">This app makes use of...</p>
         <p className="description-little">
           I chose to use <strong>C# .NET</strong> to...
-        </p>
+        </p> */}
       </div>
     );
   }
