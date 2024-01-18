@@ -25,7 +25,7 @@ class FoodShop extends React.Component {
             <button className="home-btn">View Code</button>
           </a>{" "}
           <p></p>
-          <img src="foodshop-screenshot.jpg" className="display-pic" />
+          <img src="foodshop-screenshot.png" className="display-pic" />
         </p>
         <p className="description-big">
           List of features:
