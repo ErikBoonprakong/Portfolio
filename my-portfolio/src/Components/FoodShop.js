@@ -39,6 +39,10 @@ class FoodShop extends React.Component {
             <li>Entity Framework Core 6 support</li>
             <li>Custom tag helpers</li>
             <li>View components</li>
+            <li>Search for item feature</li>
+            <li>Unit tests, written with xUnit</li>
+            <li>Account creation</li>
+            <li>Authorisation and authentication</li>
           </ul>
         </p>
         {/* <p className="description-little">This app makes use of...</p>
@@ -48,11 +52,18 @@ class FoodShop extends React.Component {
         <p className="description-little">
           My future goals for this project are:
           <ul>
-            <li>Creation of unit tests</li>
-            <li>Add search feature</li>
-            <li>User account creation and verification</li>
+            <li>Special privaliges for admin account</li>
+            <li>Add an optional display name for users</li>
             <li>Implement continuous deployment</li>
           </ul>
+        </p>
+        <p className="description-little">
+          I'm currently looking into implementing continuous deployment. The
+          obvious choice for this would be using Azure, however Azure has
+          tricked me into paying hidden cost (and not particularly cheap ones)
+          in the past, so I'm going to look at other options. Azure also made it
+          extremely difficult to delete my account or its payment details after
+          I discovered the hidden costs.
         </p>
       </div>
     );

@@ -11,10 +11,10 @@ class ChessYem extends React.Component {
     return (
       <div className="container">
         <span className="title">
-          ChessYEM - Online Multiplayer Chess Website
+          Online Multiplayer Chess Website
         </span>
         <p className="description-big">
-          This is an online chess website, created as part of a 3 person group
+          This is an online chess website, created with two friends as part of a three-person group
           project using agile methodologies.
         </p>
         <p className="pic-container">

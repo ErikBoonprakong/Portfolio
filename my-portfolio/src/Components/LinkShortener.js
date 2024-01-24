@@ -27,7 +27,7 @@ class LinkShortener extends React.Component {
             <button className="home-btn">View Server Code</button>
           </a>
           <p className="description-big">
-            Note: it may take around 10-15 seconds to register a link
+            Note: it may take around 10-15 seconds to register a link. This is due to me using the unpaid option for the database host.
           </p>
           <img src="link-shortener-screenshot.png" className="display-pic" />
         </p>
