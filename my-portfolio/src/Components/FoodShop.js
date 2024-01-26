@@ -55,6 +55,7 @@ class FoodShop extends React.Component {
             <li>Special privaliges for admin account</li>
             <li>Add an optional display name for users</li>
             <li>Implement continuous deployment</li>
+            <li>Improve Aesthetic</li>
           </ul>
         </p>
         <p className="description-little">
