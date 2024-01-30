@@ -15,13 +15,13 @@ class Home extends React.Component {
           <h3>ASP.NET Core 6 E-Commerce Web App</h3>
         </Link>
         <Link to="/chessyem">
-          <h3>Multiplayer Chess Website</h3>
+          <h3>React Multiplayer Chess Website</h3>
         </Link>
         <Link to="/puzzle">
-          <h3>Puzzle Game Site</h3>
+          <h3>React Puzzle Game Site</h3>
         </Link>
         <Link to="/link-shortener">
-          <h3>Link Shortener</h3>
+          <h3>JavaScript Link Shortener</h3>
         </Link>
         <Link to="/paint">
           <h3>JavaScript Painting App</h3>
