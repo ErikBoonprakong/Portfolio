@@ -17,11 +17,11 @@ function App() {
     <div className="App">
       <div className="header-container">
         <header className="app-header">
-            Erik Boonprakong-Kitching's Portfolio
+          Erik Boonprakong-Kitching's Portfolio
         </header>
         <br />
         <Link to="/home">
-            <button className="home-btn">Home Page</button>
+          <button className="home-btn">Home Page</button>
         </Link>
         <hr />
       </div>
@@ -54,8 +54,9 @@ function App() {
           <Redirect to="/pieshop" />
         </Route> */}
         <Route path="/home">
-            <div className="home-screen">
-          <Home /></div>
+          <div className="home-screen">
+            <Home />
+          </div>
         </Route>
         <Route path="/foodshop">
           <FoodShop />
@@ -71,6 +72,9 @@ function App() {
         </Route>
         <Route path="/blackjack">
           <Blackjack />
+        </Route>
+        <Route path="/pythonblackjack">
+          <PythonBlackjack />
         </Route>
         <Route path="/link-shortener">
           <LinkShortener />

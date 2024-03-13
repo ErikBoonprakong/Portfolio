@@ -14,6 +14,9 @@ class Home extends React.Component {
         <Link to="/foodshop">
           <h3>ASP.NET Core 6 E-Commerce Web App</h3>
         </Link>
+        <Link to="/pythonblackjack">
+          <h3>Python Blackjack Game</h3>
+        </Link>
         <Link to="/chessyem">
           <h3>React Multiplayer Chess Website</h3>
         </Link>
