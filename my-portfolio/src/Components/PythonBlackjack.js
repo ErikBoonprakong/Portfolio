@@ -43,7 +43,7 @@ class PythonBlackjack extends React.Component {
             <li>The game ends once both people have chosen to stick.</li>
             <li>At the end of the game whoever is closest to 21 wins.</li>
             <li>
-              'Blackjack' is achieved when someone sticks with just 2 card and
+              'Blackjack' is achieved when someone sticks with just 2 cards and
               those 2 cards contain an ace and a picture card (J, Q, K).
             </li>
             <li>
@@ -62,7 +62,6 @@ class PythonBlackjack extends React.Component {
               If both scores are equal and both people are holding the same
               number of cards then the game is a draw.
             </li>
-            <li></li>
           </ul>
         </p>
       </div>
