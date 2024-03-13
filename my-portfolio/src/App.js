@@ -11,6 +11,7 @@ import LinkShortener from "./Components/LinkShortener";
 import JokesWebApp from "./Components/JokesWebApp";
 import PieShop from "./Components/PieShop";
 import FoodShop from "./Components/FoodShop.js";
+import PythonBlackjack from "./Components/PythonBlackjack.js"
 
 function App() {
   return (
