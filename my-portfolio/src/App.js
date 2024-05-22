@@ -28,32 +28,11 @@ function App() {
       </div>
       <Switch>
         <Route exact path="/">
-          <Redirect to="/home" />
+          <Redirect to="/entry" />
         </Route>
-        {/* <Route exact path="/home">
-          <Redirect to="/home" />
+        <Route path="/entry">
+            <Entry />
         </Route>
-        <Route exact path="/chessyem">
-          <Redirect to="/chessyem" />
-        </Route>
-        <Route exact path="/puzzle">
-          <Redirect to="/puzzle" />
-        </Route>
-        <Route exact path="/paint">
-          <Redirect to="/paint" />
-        </Route>
-        <Route exact path="/blackjack">
-          <Redirect to="/blackjack" />
-        </Route>
-        <Route exact path="/link-shortener">
-          <Redirect to="/link-shortener" />
-        </Route>
-        <Route exact path="/jokes">
-          <Redirect to="/jokes" />
-        </Route>
-        <Route exact path="/pieshop">
-          <Redirect to="/pieshop" />
-        </Route> */}
         <Route path="/home">
           <div className="home-screen">
             <Home />
