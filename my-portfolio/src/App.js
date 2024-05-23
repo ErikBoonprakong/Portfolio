@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import "./App.css";
 import React from "react";
 import { Switch, Route, Redirect, Link } from "react-router-dom";
 import Home from "./Components/Home";
@@ -12,20 +11,21 @@ import JokesWebApp from "./Components/JokesWebApp";
 import PieShop from "./Components/PieShop";
 import FoodShop from "./Components/FoodShop.js";
 import PythonBlackjack from "./Components/PythonBlackjack.js"
+import Entry from './Components/Entry.js'
 
 function App() {
   return (
-    <div className="App">
-      <div className="header-container">
-        <header className="app-header">
-          Erik Boonprakong-Kitching's Portfolio
-        </header>
-        <br />
-        <Link to="/home">
-          <button className="home-btn">Home Page</button>
-        </Link>
-        <hr />
-      </div>
+     <div className="App">
+    {/* //   <div className="header-container">
+    //     <header className="app-header">
+    //       Erik Boonprakong-Kitching's Portfolio
+    //     </header>
+    //     <br />
+    //     <Link to="/home">
+    //       <button className="home-btn">Home Page</button>
+    //     </Link>
+    //     <hr />
+    //   </div> */}
       <Switch>
         <Route exact path="/">
           <Redirect to="/entry" />

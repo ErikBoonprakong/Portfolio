@@ -1,0 +1,17 @@
+.intro-text{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 30%;
+    margin-top: 13%;
+    flex-direction:column;
+}
+
+.intro-header{
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.entry{
+    font-family: sans-serif;
+}
