@@ -18,7 +18,7 @@ class Entry extends React.Component {
           <h3 className="intro-header">Software Engineer</h3>
           <h4 className="intro-header">
             with commercial experience in full-stack development utilising C#,
-            .NET, JavaScript, React, Node.js.
+            .NET, JavaScript, React, Node.js
           </h4>
           <Link to="/home"><h4>Check out my projects</h4></Link>
         </div>
