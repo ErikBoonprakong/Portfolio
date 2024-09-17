@@ -1,5 +1,4 @@
 import logo from "./logo.svg";
-import "./App.css";
 import React from "react";
 import { Switch, Route, Redirect, Link } from "react-router-dom";
 import Home from "./Components/Home";
@@ -12,48 +11,29 @@ import JokesWebApp from "./Components/JokesWebApp";
 import PieShop from "./Components/PieShop";
 import FoodShop from "./Components/FoodShop.js";
 import PythonBlackjack from "./Components/PythonBlackjack.js"
+import Entry from './Components/Entry.js'
+import Contact from './Components/Contact.js'
 
 function App() {
   return (
-    <div className="App">
-      <div className="header-container">
-        <header className="app-header">
-          Erik Boonprakong-Kitching's Portfolio
-        </header>
-        <br />
-        <Link to="/home">
-          <button className="home-btn">Home Page</button>
-        </Link>
-        <hr />
-      </div>
+     <div className="App">
+    {/* //   <div className="header-container">
+    //     <header className="app-header">
+    //       Erik Boonprakong-Kitching's Portfolio
+    //     </header>
+    //     <br />
+    //     <Link to="/home">
+    //       <button className="home-btn">Home Page</button>
+    //     </Link>
+    //     <hr />
+    //   </div> */}
       <Switch>
         <Route exact path="/">
-          <Redirect to="/home" />
+          <Redirect to="/entry" />
         </Route>
-        {/* <Route exact path="/home">
-          <Redirect to="/home" />
+        <Route path="/entry">
+            <Entry />
         </Route>
-        <Route exact path="/chessyem">
-          <Redirect to="/chessyem" />
-        </Route>
-        <Route exact path="/puzzle">
-          <Redirect to="/puzzle" />
-        </Route>
-        <Route exact path="/paint">
-          <Redirect to="/paint" />
-        </Route>
-        <Route exact path="/blackjack">
-          <Redirect to="/blackjack" />
-        </Route>
-        <Route exact path="/link-shortener">
-          <Redirect to="/link-shortener" />
-        </Route>
-        <Route exact path="/jokes">
-          <Redirect to="/jokes" />
-        </Route>
-        <Route exact path="/pieshop">
-          <Redirect to="/pieshop" />
-        </Route> */}
         <Route path="/home">
           <div className="home-screen">
             <Home />
@@ -85,6 +65,9 @@ function App() {
         </Route>
         <Route path="/pieshop">
           <PieShop />
+        </Route>
+        <Route path="/contact">
+        <Contact />
         </Route>
       </Switch>
     </div>

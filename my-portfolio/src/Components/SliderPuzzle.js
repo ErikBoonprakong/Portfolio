@@ -1,6 +1,9 @@
 import React from "react";
 import { Link, Redirect } from "react-router-dom";
-import "./project.css";
+import "./entry.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class Puzzle extends React.Component {
   constructor(props) {
@@ -9,8 +12,15 @@ class Puzzle extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <span className="title">Puzzle Game App</span>
+      <div className="entry text-container">
+        <h1 className="projects-header">Puzzle Game App</h1>
+        <div className="back-button">
+          <Link to="/entry" className="project-link">
+            <Button variant="primary" className="project-button">
+              Back to My Projects
+            </Button>
+          </Link>
+        </div>
         <p className="description-big">
           This is a pet project that I am currently working on. It's a{" "}
           <strong>full-stack React</strong> app where the user can sign up and
@@ -20,21 +30,30 @@ class Puzzle extends React.Component {
         </p>
 
         <p className="pic-container">
-          <a href="https://erikspuzzlegame.netlify.app/">
-            <button className="home-btn">View Website</button>
-          </a>{" "}
-          <a href="https://github.com/ErikBoonprakong/jigsaw">
-            <button className="home-btn">View Frontend Code</button>
-          </a>{" "}
-          <a href="https://github.com/ErikBoonprakong/puzzle-server">
-            <button className="home-btn">View Server Code</button>
-          </a>
+          <div className="button-container">
+            <a
+              href="https://erikspuzzlegame.netlify.app/"
+              className="project-link-large"
+            >
+              <Button variant="primary" className="project-button">
+                View Site
+              </Button>
+            </a>
+            <a
+              href="https://github.com/stars/ErikBoonprakong/lists/puzzle-game-site"
+              className="project-link-large"
+            >
+              <Button variant="primary" className="project-button">
+                View Code
+              </Button>
+            </a>
+          </div>
           <p></p>
           <p className="description-big">
             Note: the header may take around 30 seconds or so to update if the
             database has not been connected to for a while. This is just a
             result of using the free hosting plan with ElephantSQL and would not
-            occur if I chose to use one of their paid plans. 
+            occur if I chose to use one of their paid plans.
           </p>
           <img src="puzzlegame-screenshot.png" className="display-pic" />
         </p>
@@ -109,6 +128,13 @@ class Puzzle extends React.Component {
             <li>Rewards to be purchased with points</li>
           </ul>
         </p>
+        <div className="back-button">
+          <Link to="/entry" className="project-link">
+            <Button variant="primary" className="project-button">
+              Back to My Projects
+            </Button>
+          </Link>
+        </div>
       </div>
     );
   }

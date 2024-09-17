@@ -1,6 +1,9 @@
 import React from "react";
 import { Link, Redirect } from "react-router-dom";
-import "./project.css";
+import "./entry.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class ChessYem extends React.Component {
   constructor(props) {
@@ -9,29 +12,42 @@ class ChessYem extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <span className="title">
-          Online Multiplayer Chess Website
-        </span>
+      <div className="entry text-container">
+        <h1 className="projects-header">Online Multiplayer Chess Website</h1>
+        <div className="back-button">
+          <Link to="/entry" className="project-link">
+            <Button variant="primary" className="project-button">
+              Back to My Projects
+            </Button>
+          </Link>
+        </div>
         <p className="description-big">
-          This is an online chess website, created with two friends as part of a three-person group
-          project using agile methodologies.
+          This is an online chess website, created with two friends as part of a
+          three-person group project using agile methodologies.
         </p>
         <p className="pic-container">
-          <a href="https://chessyem.netlify.app/">
-            <button className="home-btn">View Website</button>
-          </a>{" "}
-          <a href="https://github.com/ErikBoonprakong/chess-frontend">
-            <button className="home-btn">View Frontend Code</button>
-          </a>{" "}
-          <a href="https://github.com/ErikBoonprakong/chess-backend">
-            <button className="home-btn">View Backend Code</button>
-          </a>{" "}
-          <a href="https://github.com/ErikBoonprakong/chess-websocket">
-            <button className="home-btn">View Websocket Code</button>
-          </a>
+          <div className="button-container">
+            <a
+              href="https://chessyem.netlify.app/"
+              className="project-link-large"
+            >
+              <Button variant="primary" className="project-button">
+                View Site
+              </Button>
+            </a>
+            <a
+              href="https://github.com/stars/ErikBoonprakong/lists/chessyem"
+              className="project-link-large"
+            >
+              <Button variant="primary" className="project-button">
+                View Code
+              </Button>
+            </a>
+          </div>
           <p className="description-big">
-            Note: it may take around 30 seconds to log in or sign up if the database has not been connected to in a while. This is due to the particular hosting plan that I chose.
+            Note: it may take around 30 seconds to log in or sign up if the
+            database has not been connected to in a while. This is due to the
+            particular hosting plan that I chose.
           </p>
           <img src="chess-screenshot.png" className="display-pic" />
         </p>
@@ -123,6 +139,13 @@ class ChessYem extends React.Component {
           pushed to the main branch of a repo the site would be automatically
           redeployed.
         </p>
+        <div className="back-button bottom">
+          <Link to="/entry" className="project-link">
+            <Button variant="primary" className="project-button">
+              Back to My Projects
+            </Button>
+          </Link>
+        </div>
       </div>
     );
   }

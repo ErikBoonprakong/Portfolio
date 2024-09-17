@@ -1,6 +1,9 @@
 import React from "react";
 import { Link, Redirect } from "react-router-dom";
-import "./project.css";
+import "./entry.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class Paint extends React.Component {
   constructor(props) {
@@ -9,19 +12,38 @@ class Paint extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <span className="title">JavaScript Painting App</span>
+      <div className="entry text-container">
+        <h1 className="projects-header">JavaScript Painting App</h1>
+        <div className="back-button">
+          <Link to="/entry" className="project-link">
+            <Button variant="primary" className="project-button">
+              Back to My Projects
+            </Button>
+          </Link>
+        </div>
         <p className="description-big">
           This is a simple JavaScript canvas painting app, built with
           JavaScript, CSS and semantic HTML
         </p>
         <p className="pic-container">
-          <a href="https://htmlpreview.github.io/?https://github.com/ErikBoonprakong/Canvas-paint/blob/main/Paint%20Canvas.html">
-            <button className="home-btn">View Website</button>
-          </a>{" "}
-          <a href="https://github.com/ErikBoonprakong/Canvas-paint">
-            <button className="home-btn">View Code</button>
-          </a>
+          <div className="button-container">
+            <a
+              href="https://htmlpreview.github.io/?https://github.com/ErikBoonprakong/Canvas-paint/blob/main/Paint%20Canvas.html"
+              className="project-link-large"
+            >
+              <Button variant="primary" className="project-button">
+                View Site
+              </Button>
+            </a>
+            <a
+              href="https://github.com/ErikBoonprakong/Canvas-paint"
+              className="project-link-large"
+            >
+              <Button variant="primary" className="project-button">
+                View Code
+              </Button>
+            </a>
+          </div>
           <p></p>
           <img src="paint-screenshot.png" className="display-pic" />
         </p>
@@ -36,6 +58,13 @@ class Paint extends React.Component {
             <li>Changing Cursor Depending On Which Tool Is Selected</li>
           </ul>
         </p>
+        <div className="back-button bottom">
+          <Link to="/entry" className="project-link">
+            <Button variant="primary" className="project-button">
+              Back to My Projects
+            </Button>
+          </Link>
+        </div>
       </div>
     );
   }
