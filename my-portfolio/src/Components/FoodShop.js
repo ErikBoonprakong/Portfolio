@@ -1,6 +1,9 @@
 import React from "react";
 import { Link, Redirect } from "react-router-dom";
-import "./project.css";
+import "./entry.css";
+import Button from "react-bootstrap/Button";
+import Card from "react-bootstrap/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class FoodShop extends React.Component {
   constructor(props) {
@@ -9,8 +12,15 @@ class FoodShop extends React.Component {
 
   render() {
     return (
-      <div className="container">
-        <span className="title">ASP.NET Core E-Commerce Web App</span>
+      <div className="entry text-container">
+        <h1 className="projects-header">ASP.NET Core E-Commerce Web App</h1>
+        <div className="back-button">
+          <Link to="/entry" className="project-link">
+            <Button variant="primary" className="project-button">
+              Back to My Projects
+            </Button>
+          </Link>
+        </div>
         <p className="description-big">
           This is my current main pet project. It's a mock e-commerce website
           built with ASP.NET Core 6 and C# 10, using the traditional MVC pattern
@@ -21,8 +31,13 @@ class FoodShop extends React.Component {
           Core 6.
         </p>
         <p className="pic-container">
-          <a href="https://github.com/ErikBoonprakong/FoodShop">
-            <button className="home-btn">View Code</button>
+          <a
+            href="https://github.com/ErikBoonprakong/FoodShop"
+            className="project-link-large"
+          >
+            <Button variant="primary" className="back-button">
+              View Code
+            </Button>
           </a>{" "}
           <p></p>
           <img src="foodshop-screenshot.png" className="display-pic" />
@@ -62,10 +77,15 @@ class FoodShop extends React.Component {
           I'm currently looking into implementing continuous deployment. The
           obvious choice for this would be using Azure, however Azure has
           tricked me into paying hidden cost (and not particularly cheap ones)
-          in the past, so I'm going to look at other options. Azure also made it
-          extremely difficult to delete my account or its payment details after
-          I discovered the hidden costs.
+          in the past, so I'm going to look at other options. 
         </p>
+        <div className="back-button">
+          <Link to="/entry" className="project-link">
+            <Button variant="primary" className="project-button">
+              Back to My Projects
+            </Button>
+          </Link>
+        </div>
       </div>
     );
   }

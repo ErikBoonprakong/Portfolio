@@ -12,6 +12,7 @@ import PieShop from "./Components/PieShop";
 import FoodShop from "./Components/FoodShop.js";
 import PythonBlackjack from "./Components/PythonBlackjack.js"
 import Entry from './Components/Entry.js'
+import Contact from './Components/Contact.js'
 
 function App() {
   return (
@@ -64,6 +65,9 @@ function App() {
         </Route>
         <Route path="/pieshop">
           <PieShop />
+        </Route>
+        <Route path="/contact">
+        <Contact />
         </Route>
       </Switch>
     </div>
