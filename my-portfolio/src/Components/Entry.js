@@ -33,7 +33,7 @@ class Entry extends React.Component {
           </div>
           <p className="intro-header">
             with commercial experience in full-stack development utilising C#,
-            .NET, JavaScript, React, Node.js. 
+            .NET, JavaScript, React, Node.js.
           </p>
           <p></p>
           <hr />
@@ -63,8 +63,10 @@ class Entry extends React.Component {
                     </strong>
                   </p>
                   <p>
-                    Tags: React, SQL, PostgreSQL, Unit Testing, Continuous Deployment, Node.js, Websockets,
-                    socket.io, Deno, Netlify, Heroku, JavaScript, CSS, HTML, relational databases, full-stack
+                    Tags: React, SQL, PostgreSQL, Unit Testing, Continuous
+                    Deployment, Node.js, Websockets, socket.io, Deno, Netlify,
+                    Heroku, JavaScript, CSS, HTML, relational databases,
+                    full-stack
                   </p>
                 </Card.Text>
                 <div className="button-container">
@@ -113,17 +115,28 @@ class Entry extends React.Component {
                     Data for this web app is stored through the use of Entity
                     Framework Core 6.
                   </p>
-                  <p>Tags: C# 10, SQL, ASP.NET Core 6, Razor, Blazor, Unit Testing, xUnit, Entity Framework Core 6, Full-stack</p>
+                  <p>
+                    Tags: C# 10, SQL, ASP.NET Core 6, Razor, Blazor, Unit
+                    Testing, xUnit, Entity Framework Core 6, Full-stack
+                  </p>
                 </Card.Text>
                 <div className="button-container">
-                  <Link to="/foodshop" className="project-link-large">
+                  <Link to="/foodshop" className="project-link">
                     <Button variant="primary" className="project-button">
                       More Information
                     </Button>
                   </Link>
                   <a
+                    href="https://ecommerce-site-aspnet-5ca2ec54bfb3.herokuapp.com/"
+                    className="project-link"
+                  >
+                    <Button variant="primary" className="project-button">
+                      View Site
+                    </Button>
+                  </a>
+                  <a
                     href="https://github.com/ErikBoonprakong/FoodShop"
-                    className="project-link-large"
+                    className="project-link"
                   >
                     <Button variant="primary" className="project-button">
                       View Code
@@ -158,7 +171,10 @@ class Entry extends React.Component {
                       is due to the particular hosting plan that I chose.
                     </strong>
                   </p>
-                  <p>Tags: React, SQL, PostgreSQL, Deno, Continuous Deployment, HTML, CSS, JavaScript, Full-stack</p>
+                  <p>
+                    Tags: React, SQL, PostgreSQL, Deno, Continuous Deployment,
+                    HTML, CSS, JavaScript, Full-stack
+                  </p>
                 </Card.Text>
                 <div className="button-container">
                   <Link to="/puzzle" className="project-link">
@@ -197,7 +213,10 @@ class Entry extends React.Component {
                   <h3>Vanilla JavaScript Painting App</h3>
                 </Card.Title>
                 <Card.Text className="project-text">
-                  <p>One of my earliest projects, a painting app created with JavaScript canvas.</p>
+                  <p>
+                    One of my earliest projects, a painting app created with
+                    JavaScript canvas.
+                  </p>
                   <p>Tags: JavaScript, HTML, CSS</p>
                 </Card.Text>
                 <div className="button-container">
