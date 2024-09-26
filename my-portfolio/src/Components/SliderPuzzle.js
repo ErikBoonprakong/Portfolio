@@ -128,7 +128,7 @@ class Puzzle extends React.Component {
             <li>Rewards to be purchased with points</li>
           </ul>
         </p>
-        <div className="back-button">
+        <div className="back-button bottom">
           <Link to="/entry" className="project-link">
             <Button variant="primary" className="project-button">
               Back to My Projects
