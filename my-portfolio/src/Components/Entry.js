@@ -35,6 +35,31 @@ class Entry extends React.Component {
             with commercial experience in full-stack development utilising C#,
             .NET, JavaScript, React, Node.js.
           </p>
+          <p className="intro-header">
+            I began my career in software engineering as a Full-Stack Engineer
+            at a startup called Sigma Labs. During my time here I worked as the
+            software architect in a 3-person team to create an online
+            multiplayer chess website. My role in this project involved creating
+            most of the backend, including both servers, the database, and the
+            websocket, as well as a few of the frontend components. I
+            particularly enjoyed the challenge of having to learn many new
+            technologies on the fly while still adhering to tight deadlines.
+          </p>
+          <p className="intro-header">
+            I recently worked as a contract C# Developer at Lloyds Banking Group
+            where I directly contributed to improving the bank's security by
+            integrating a newly-created, harder to manipulate data type into
+            their software that provided information about bond prices. My
+            initial 6-month contract was then extended in light of this work.
+          </p>
+          <p className="intro-header">
+            Since Lloyds I've continued to upskill by doing freelance web
+            development for an art school that I used to work at. I chose to
+            take on this work because I knew the school needed a website and I
+            wanted to continue practicing working to a list of user requirements
+            provided by someone else. In my free time I've been working on a
+            continually deployed, full-stack ASP.NET Core web app.
+          </p>
           <p></p>
           <hr />
           <h2 className="projects-header">My Projects</h2>
