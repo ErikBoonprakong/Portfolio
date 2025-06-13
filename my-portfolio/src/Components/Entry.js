@@ -80,8 +80,11 @@ class Entry extends React.Component {
             provided by someone else. In my free time I've been working on a
             continually deployed, full-stack ASP.NET Core web app.
           </p>
-          <p className="intro-header read-more" onMouseDown={this.handleShowMore}>
-            {this.state.showMore === false ? 'Read more...' : 'Show less.'}
+          <p
+            className="intro-header read-more"
+            onMouseDown={this.handleShowMore}
+          >
+            {this.state.showMore === false ? "Read more..." : "Show less."}
           </p>
           <p></p>
           <hr />
@@ -105,9 +108,9 @@ class Entry extends React.Component {
                   </p>
                   <p>
                     <strong>
-                      Note: it may take around 30 seconds to log in or sign up
-                      if the database has not been connected to in a while. This
-                      is due to the particular hosting plan that I chose.
+                      Note: The backend to this project is currently down due to
+                      ElephantSQL discontinuing their services. This issue will
+                      be fixed soon.
                     </strong>
                   </p>
                   <p>
@@ -214,9 +217,9 @@ class Entry extends React.Component {
                   </p>
                   <p>
                     <strong>
-                      Note: it may take around 30 seconds to log in or sign up
-                      if the database has not been connected to in a while. This
-                      is due to the particular hosting plan that I chose.
+                      Note: The backend to this project is currently down due to
+                      ElephantSQL discontinuing their services. This issue will
+                      be fixed soon.
                     </strong>
                   </p>
                   <p>

@@ -45,9 +45,7 @@ class ChessYem extends React.Component {
             </a>
           </div>
           <p className="description-big">
-            Note: it may take around 30 seconds to log in or sign up if the
-            database has not been connected to in a while. This is due to the
-            particular hosting plan that I chose.
+            Note: The backend to this project is currently down due to ElephantSQL discontinuing their services. This issue will be fixed soon.
           </p>
           <img src="chess-screenshot.png" className="display-pic" />
         </p>

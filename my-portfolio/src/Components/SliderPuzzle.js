@@ -50,10 +50,9 @@ class Puzzle extends React.Component {
           </div>
           <p></p>
           <p className="description-big">
-            Note: the header may take around 30 seconds or so to update if the
-            database has not been connected to for a while. This is just a
-            result of using the free hosting plan with ElephantSQL and would not
-            occur if I chose to use one of their paid plans.
+            Note: The backend to this project is currently down due to
+            ElephantSQL discontinuing their services. This issue will be fixed
+            soon.
           </p>
           <img src="puzzlegame-screenshot.png" className="display-pic" />
         </p>
