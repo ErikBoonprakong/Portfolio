@@ -108,9 +108,7 @@ class Entry extends React.Component {
                   </p>
                   <p>
                     <strong>
-                      Note: The backend to this project is currently down due to
-                      ElephantSQL discontinuing their services. This issue will
-                      be fixed soon.
+                      Note: It may take ~30 seconds to connect to the database if the database hasn't been accessed recently. This is due to the cheap hosting plan that I chose.
                     </strong>
                   </p>
                   <p>

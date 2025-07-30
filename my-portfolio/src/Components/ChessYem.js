@@ -45,7 +45,9 @@ class ChessYem extends React.Component {
             </a>
           </div>
           <p className="description-big">
-            Note: The backend to this project is currently down due to ElephantSQL discontinuing their services. This issue will be fixed soon.
+            Note: It may take ~30 seconds to connect to the database if the
+            database hasn't been accessed recently. This is due to the cheap
+            hosting plan that I chose.
           </p>
           <img src="chess-screenshot.png" className="display-pic" />
         </p>
@@ -88,10 +90,10 @@ class ChessYem extends React.Component {
           <strong>websocket</strong> to handle{" "}
           <strong>bidirectional communication</strong> between the client and
           server required for the play online component. The{" "}
-          <strong>database</strong> server was made using Deno mostly due to
+          <strong>database</strong> server was initially made using Deno mostly due to
           Deno's browser API's which made writing front end code really
           convenient as all the communication with the server could be done
-          through a standardised fetch function. We had various options for
+          through a standardised fetch function, however in 2025 I decided to modernise the backend by rewritting it using Node.js and Express as Deno never really caught on in terms of popularity. We had various options for
           hosting the database online (postgres, mySQL...) so we chose Postgres
           because we were already familiar with it and it is more complex, and
           therefore less restrictive should we choose to continue working on
