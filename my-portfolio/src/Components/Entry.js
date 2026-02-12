@@ -26,7 +26,7 @@ class Entry extends React.Component {
           <div className="profile-pic-container">
             <div>
               <img
-                src="TeamsProfilePicCropped.jpg"
+                src="Badge Picture - Erik Boonprakong-Kitching.jpg"
                 alt="Profile Picture"
                 className="profile-pic"
               />
