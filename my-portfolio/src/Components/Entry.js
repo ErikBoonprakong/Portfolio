@@ -33,7 +33,7 @@ class Entry extends React.Component {
             </div>
             <div className="profile-intro">
               <h6 className="intro-header">Hi, my name is</h6>
-              <h2 className="intro-header">Erik Boonprakong-Kitching</h2>
+              <h2 className="intro-header">Erik Boonprakong</h2>
               <h6 className="intro-header">I'm a</h6>
               <h3 className="intro-header">Software Engineer</h3>
             </div>
